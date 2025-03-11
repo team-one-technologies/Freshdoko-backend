@@ -3,6 +3,22 @@
 FreshDoko is an organic food supply platform integrating **real-time weather data, user preferences, and nutritional information** to provide **personalized food recommendations**. The backend is built using **Django** and supports **payment processing (Khalti & Payoneer), order tracking, and shop owner dashboards**.
 
 ## **Features**
+### User Management
+User authentication using JWT tokens.
+Support for Google and Facebook login via OAuth.
+Role-based access control (shop owner and customer).
+User registration, login, and password reset.
+
+#### Product Management
+
+CRUD operations for products (for shop owners).
+Product listing with search and pagination.
+Product details view (description, price, stock, etc.).
+
+### Cart Operations
+Add/remove products to/from the cart.
+View cart contents, quantity, and total price.
+Checkout process with price calculation (including taxes and shipping).
 
 ### Payment Gateway Integration
 - Secure payment processing via **Khalti** and **Payoneer APIs**
